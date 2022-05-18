@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+
+.icon-star-width{
+    width: 20px!important;
+}
+.icon-star-width-parent{
+    width: 50px;
+    height: 50px;
+    background: hsl(217, 12%, 25%);
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+.card-background{
+    background:hsl(213, 19%, 18%) !important; ;
+    border-radius: 20px !important;
+}
+.button-each{
+    width: 60px;
+    height: 60px;
+    color: gray !important;
+    line-height: 50px !important;
+    border-radius: 50% !important;
+    /*background: hsl(217, 12%, 25%) !important;*/
+    /*border: none !important;*/
+    transition: 0.3s;
+}
+
+.button-each:hover{
+    background-color: hsl(25, 97%, 53%) !important;
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+}
+
+.button-each:focus{
+    background-color: red !important;
+}
+.btn-submit{
+    transition: 0.3s;
+}
+.btn-submit:hover{
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white !important;}
+
+.img-star:hover{
+    transform: rotate(90deg);
+}
+
+.img-star {
+    animation: rotation 8s infinite linear;
+    transition: 0.5s;
+
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+

@@ -1,0 +1,14 @@
+//Customize Scss Here
+$primary : hsl(0, 0%, 100%) ;
+$secondary:hsl(25, 97%, 53%);
+$warning: hsl(216, 12%, 8%);
+$success : hsl(217, 12%, 25%);
+
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+@import "node_modules/animate.css/animate.min.css";
+
+
+@import "css/index.css";
+@import "css/thank.css";

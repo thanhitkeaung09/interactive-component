@@ -1,0 +1,14 @@
+.selected{
+    transition: 0.3s;
+}
+.selected:hover{
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+}
+
+.img-thank{
+    transition: 0.5s;
+}
+.img-thank:hover{
+    transform: rotate(10deg);
+}
